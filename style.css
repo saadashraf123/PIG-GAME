@@ -54,7 +54,7 @@ body{
 .player-score{
     text-align: center;
     font-size: 80px;
-    font-weight: 100;
+    font-weight:lighter;
     margin-bottom: 130px;
     color: #eb4d4d;
 }
@@ -63,7 +63,6 @@ body{
 .active, .player-name{font-weight: 300;}
 
 
-/* active ki class ayegi neechy walay mai agar zaroorat pari tou */
 .active .player-name::after{
     content: "\2022";
     font-size: 47px;
@@ -138,7 +137,7 @@ i{
 }
 
 .winner{background-color: #f7f7f7;}
-.winner, .player-name{
+.winner .player-name{
     font-weight: 300;
     color: #eb4d4d;
 }
